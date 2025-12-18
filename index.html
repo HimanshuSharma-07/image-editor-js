@@ -11,7 +11,7 @@
 </head>
 <body>
     <main>
-        <section>
+        <section> 
             <div class="left">
                 <div class="top">
                     <label for="image-input" class="btn">
@@ -22,13 +22,30 @@
                     <button class="btn" id="download-btn">Download</button>
                 </div>
                 <div class="bottom">
-                    <div class="placeholde">
+                    <div class="placeholder">
                         <i class="ri-file-image-line"></i>
                         <p>No image is chosen</p>
                     </div>
                 </div>
             </div>
-            <div class="right"></div>
+            <div class="right">
+                <div class="filters">
+
+                    <h2>Filters</h2>
+                    
+                    <div class="filter">
+                        <p>Brightness</p>
+                        <input 
+                        name="brightness" 
+                        aria-valuemax="100" 
+                        type="range" 
+                        min="0" 
+                        max="200">
+                    </div>
+
+                </div>
+                
+            </div>
         </section>
     </main>
     
