@@ -23,6 +23,7 @@ main{
 }
  
 main section{
+    height: 100vh;
     width: 100%;
     padding: var(--padding-2xl);
     display: flex;
@@ -63,6 +64,7 @@ main section .left{
 }
 
 main section .right{
+    height: 105%;
     width: 30%;
     background: var(--bg-secondary-color);
     padding: var(--padding-lg);
@@ -112,6 +114,7 @@ main section .right{
 
 main section .right .filter{
     width: 100%;
+    height: 5%;
     
 }
 
@@ -119,6 +122,7 @@ main section .right .filters{
     display: flex;
     flex-direction: column;
     gap: var(--gutter-md);
+    
 }
 
 main section .right .filter input{
@@ -143,6 +147,11 @@ main section .right .filter input::-webkit-slider-thumb{
     background-color: red;
     margin-top: -8.5px;
 
+}
+
+canvas{
+    max-width: 90%;
+    max-height: 80vh;
 }
 
 
